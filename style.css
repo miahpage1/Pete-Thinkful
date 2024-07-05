@@ -1,0 +1,86 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7; /* Set the background color of the page */
+  text-align: center; /* Center align contents of header and footer */
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Set width to match max-width of images */
+  height: 200px; /* Ensure it's a square */
+  border-radius: 50%; /* Make the image round */
+  border: 2px solid #003049; /* Add a 2px solid border with color #003049 */
+}
+
+h2 {
+  font-size: 32px; /* Larger font size for h2 (Portfolio and About headings) */
+}
+
+h3 {
+  font-size: 24px; /* Smaller font size for h3 (subheadings) */
+}
+
+/* Center align headings and images in Portfolio section */
+.portfolio-heading,
+.project-name,
+.project-image {
+  text-align: center;
+}
+
+/* Anchor tag styling */
+a:link {
+  color: #d62828; /* Set link color */
+}
+
+a:hover {
+  color: #f77f00; /* Change link color on hover */
+}
+
+/* Center align Contact heading */
+.contact-heading {
+  text-align: center;
+}
