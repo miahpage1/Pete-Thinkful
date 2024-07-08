@@ -1,6 +1,7 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line. */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+/* Body styles */
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
@@ -9,44 +10,46 @@ body {
   text-align: center; /* Center align contents of header and footer */
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
-h1,
-h2,
-h3 {
+/* Heading styles for h1, h2, h3 */
+h1, h2, h3 {
   font-family: "Playfair Display", Times, serif;
 }
 
+/* Article section padding */
 article {
   padding: 50px 0;
 }
 
+/* Center align content within div */
 article div {
   text-align: center;
   width: 100%;
 }
 
+/* Paragraph line height */
 p {
   line-height: 1.5;
 }
 
-/* The div container constrains the content width within the main container to 600px */
+/* Container width and centering */
 div {
   margin: auto;
-  width: 600px;
+  width: 600px; /* The div container constrains the content width within the main container to 600px */
 }
 
+/* Image styles */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
+/* Horizontal line styles */
 hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
-
+/* Rounded image with border */
 .image-circle {
   display: block;
   margin: 0 auto;
@@ -56,12 +59,14 @@ hr {
   border: 2px solid #003049; /* Add a 2px solid border with color #003049 */
 }
 
+/* Larger font size for h2 (Portfolio and About headings) */
 h2 {
-  font-size: 32px; /* Larger font size for h2 (Portfolio and About headings) */
+  font-size: 32px;
 }
 
+/* Smaller font size for h3 (subheadings) */
 h3 {
-  font-size: 24px; /* Smaller font size for h3 (subheadings) */
+  font-size: 24px;
 }
 
 /* Center align headings and images in Portfolio section */
@@ -71,7 +76,12 @@ h3 {
   text-align: center;
 }
 
-/* Anchor tag styling */
+/* Center align Contact heading */
+.contact-heading {
+  text-align: center;
+}
+
+/* Anchor tag styles */
 a:link {
   color: #d62828; /* Set link color */
 }
@@ -80,7 +90,3 @@ a:hover {
   color: #f77f00; /* Change link color on hover */
 }
 
-/* Center align Contact heading */
-.contact-heading {
-  text-align: center;
-}
