@@ -1,101 +1,76 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line. */
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-/* Body styles */
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  background-color: #eae2b7; /* Set the background color of the page */
-  text-align: center; /* Center align contents of header and footer */
+  background-color: #eae2b7;
+  width: 600px;
+  margin: auto;
 }
 
-/* Heading styles for h1, h2, h3 */
-h1, h2, h3 {
-  font-family: "Playfair Display", Times, serif;
+.center {
+  text-align: center;
 }
 
-/* Article section padding */
+/* Set the font family for any h1, h2, or h3 heading */
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif; 
+  text-align: center;
+}
+
 article {
   padding: 50px 0;
 }
 
-/* Center align content within div */
 article div {
   text-align: center;
   width: 100%;
 }
 
-/* Paragraph line height */
 p {
   line-height: 1.5;
 }
 
-/* Container width and centering */
-div {
-  margin: auto;
-  width: 600px; /* The div container constrains the content width within the main container to 600px */
+/* Links */
+a:link {
+  color: #d62828;
 }
 
-/* Image styles */
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
-/* Horizontal line styles */
+
+.img-circle {
+  width: 200px;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+ border: 2px, #003049;
+}
 hr {
   border: 1px solid black;
 }
 
-/* Rounded image with border */
-.image-circle {
-  display: block;
-  margin: 0 auto;
-  width: 200px; /* Set width to match max-width of images */
-  height: 200px; /* Ensure it's a square */
-  border-radius: 50%; /* Make the image round */
-  border: 2px solid #003049; /* Add a 2px solid border with color #003049 */
-}
 
-/* Larger font size for h2 (Portfolio and About headings) */
-h2 {
-  font-size: 32px;
-}
-
-/* Smaller font size for h3 (subheadings) */
-h3 {
-  font-size: 24px;
-}
-
-/* Center align headings and images in Portfolio section */
-.portfolio-heading,
-.project-name,
-.project-image {
-  text-align: center;
-}
-
-/* Center align Contact heading */
-.contact-heading {
-  text-align: center;
-}
-
-a:link {
-  color: #d62828; /* Set link color */
-  margin: 0 20px;
-}
-
-/* 2. Change link color on hover */
-a:hover {
-  color: #f77f00;
-}
-
-#contact ol {
-  padding-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-#contact ol li {
-  margin-bottom: 10px; /* Adjust as needed */
-}
