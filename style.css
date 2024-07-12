@@ -81,12 +81,11 @@ h3 {
   text-align: center;
 }
 
-/* Anchor tag styles */
 a:link {
   color: #d62828; /* Set link color */
 }
 
+/* 2. Change link color on hover */
 a:hover {
-  color: #f77f00; /* Change link color on hover */
+  color: #f77f00;
 }
-
